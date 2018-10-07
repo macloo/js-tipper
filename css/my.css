@@ -1,0 +1,26 @@
+body {
+    background: #a7a497;
+}
+#container {
+    box-sizing: border-box;
+    height: 100vh;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #f4e20a;
+}
+.pure-button-primary,
+.pure-button-selected,
+a.pure-button-primary,
+a.pure-button-selected {
+    background-color: #a41fa7;
+    color: #fff;
+}
+form h1 {
+    text-align: center;
+    color: #a41fa7;
+}

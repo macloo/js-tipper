@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> JS Examples  </title>
+	<link rel="stylesheet" href="css/pure-min.css">
+	<link rel="stylesheet" href="css/my.css">
+</head>
+
+<body>
+
+<div id="container">
+
+	<form class="pure-form pure-form-aligned">
+
+	<h1>Tip Calculator</h1>
+
+    <fieldset>
+        <div class="pure-control-group">
+            <label for="total">Bill total</label>
+            <input id="total" type="number" step="0.01" value="0.00">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="tax">Tax</label>
+            <input id="tax" type="number" step="0.01" value="0.00">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="wo-tax">Total without tax</label>
+            <input id="wo-tax" type="text" placeholder="Automatic" readonly="readonly">
+        </div>
+
+        <div class="pure-control-group">
+            <label for="tip-pc">Tip percentage</label>
+            <input id="tip-pc" type="number" step="1" value="00">
+        </div>
+
+		<div class="pure-control-group">
+            <label for="tip">Tip amount</label>
+            <input id="tip" type="text" placeholder="Automatic" readonly="readonly">
+        </div>
+
+		<div class="pure-control-group">
+			<label for="total-w-tip">Total w/ tax and tip</label>
+			<input id="total-w-tip" type="text" placeholder="Automatic" readonly="readonly">
+		</div>
+
+		<div class="pure-controls">
+
+            <button type="submit" class="pure-button pure-button-primary">Clear All</button>
+        </div>
+
+    </fieldset>
+</form>
+
+</div><!-- end container div -->
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
