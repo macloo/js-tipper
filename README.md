@@ -13,3 +13,8 @@ Uses:
 ## Why?
 
 To demonstrate a useful first JavaScript app with as little complication as possible.
+
+## Things not done
+
+1. Round the tip up (no cents)
+2. Split the bill
