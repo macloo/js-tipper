@@ -1,11 +1,11 @@
 // create variables to represent all the form fields
 // access the DOM, get needed elements
-const total = document.getElementById("total");
-const tax = document.getElementById("tax");
-const woTax = document.getElementById("wo-tax");
-const tipPct = document.getElementById("tip-pc");
-const tip = document.getElementById("tip");
-const totalIncTip = document.getElementById("total-w-tip");
+const total = document.querySelector("#total");
+const tax = document.querySelector("#tax");
+const woTax = document.querySelector("#wo-tax");
+const tipPct = document.querySelector("#tip-pc");
+const tip = document.querySelector("#tip");
+const totalIncTip = document.querySelector("#total-w-tip");
 
 // create two event listeners -
 // one for all input elements, the other for the only button
