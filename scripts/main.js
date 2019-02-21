@@ -1,3 +1,4 @@
+// create variables to represent all the form fields
 const total = document.getElementById("total");
 const tax = document.getElementById("tax");
 const woTax = document.getElementById("wo-tax");
@@ -5,9 +6,12 @@ const tipPct = document.getElementById("tip-pc");
 const tip = document.getElementById("tip");
 const totalIncTip = document.getElementById("total-w-tip");
 
+// create two event listeners -
+// one for all input elements, the other for the only button
 document.body.addEventListener('input', calculateTip);
 document.body.addEventListener('button', clearAll);
 
+// function to run when any input value changes
 function calculateTip() {
     let vTotal = parseFloat(total.value).toFixed(2);
     let vTax = parseFloat(tax.value).toFixed(2);
@@ -26,6 +30,7 @@ function calculateTip() {
     totalIncTip.value = vTotalIncTip.toFixed(2);
 }
 
+// function to run when the button is clicked
 function clearAll() {
     total.value = 0;
     tax.value = 0;
