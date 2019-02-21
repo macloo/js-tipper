@@ -24,3 +24,9 @@ form h1 {
     text-align: center;
     color: #a41fa7;
 }
+
+@media screen and (max-width: 650px) {
+    .pure-form input {
+        width: 100%;
+    }
+}
