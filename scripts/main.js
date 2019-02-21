@@ -1,4 +1,5 @@
 // create variables to represent all the form fields
+// access the DOM, get needed elements
 const total = document.getElementById("total");
 const tax = document.getElementById("tax");
 const woTax = document.getElementById("wo-tax");
